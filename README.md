@@ -14,11 +14,11 @@ Industry: Education
 
 # Roles and responsibilities
 
-1.Bhavitha (project management) :Manages the web development project.
+1.Bhavitha (project management) :Manages and creating of web development project.
 
 2.Ganesh Mucharla  (Documentation) :Responsible for managing the documentation process.
 
-3.SHAIK HUSSAIN (Deployment) :Deployment and maintenance of project infrastructure.(Images, logos and chat bot questions) Responsible for image searching, logo creation and chat bot questions)
+3.SHAIK HUSSAIN (Deployment) :Deployment and maintenance of project infrastructure.(Images, logos and chat bot questions) and Responsible for image searching, logo creation and chat bot questions)
 
 # Azure services used:
 
