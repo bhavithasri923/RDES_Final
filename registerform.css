@@ -1,0 +1,98 @@
+body{
+    background-color: orange;
+}
+#background-img {
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 50;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+  #total_area{
+    border: 1.5px solid black;
+    border-radius: 15px;
+    width:5in;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-attachment:fixed;
+    height: max-content;
+  }
+        .parent{
+        font-family: Georgia;
+          border: 1.5px solid black;
+          border-radius: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top:4px;
+          padding-bottom:10px;
+          align-items: center;
+          width:3in;
+          font-size: 2rem;
+          } 
+
+        #span1{
+          padding-left:20px;
+          padding-right:20px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-size: 1.5rem;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-weight: bold;
+          border: 0.2px solid black;
+          border-radius:30px;
+          margin-left:50px;
+          margin-right:50px;
+        }
+        #span2{
+          font-size: 2rem;
+          font-family:cursive;
+        }
+
+        .inputs{
+          width:2in;
+          font-weight: bold;
+          font-style: italic;
+          font-family:cursive;
+          font-size:15px;text-align: center;
+          border:1px solid black;
+          border-radius: 1.5rem;
+          background-color:transparent;
+        }
+
+        .inputs:hover{
+          border: 2px solid white;
+          background-color: rgb(231, 144, 81);
+          color: white;
+        }
+        button{
+          margin: 10px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.5px solid black;
+          border-radius: 50px;
+        }
+        #submit{
+          background-color: transparent;
+        }
+        #submit:hover{
+        background-color: rgb(69, 201, 69);
+        border: 2px solid white;
+
+        }
+        #new_acc{
+          background-color: transparent;
+        }
+        #new_acc:hover{
+        border: 2px solid white;
+        }

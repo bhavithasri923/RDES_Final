@@ -1,0 +1,82 @@
+body{
+    background-color:green;
+}
+  #total_area{
+    border: 1.5px solid black;
+    border-radius: 30px;
+    width:6in;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-attachment:fixed;
+    height: max-content;
+  }
+        .parent{
+          border: 1.5px solid black;
+          border-radius: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top:4px;
+          padding-bottom:10px;
+          align-items: center;
+          width:2.8in;
+          font-size: 2rem;
+          } 
+
+        #span1{
+          padding-left:50px;
+          padding-right:50px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-size: 1.5rem;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-weight: bold;
+          border: 0.2px solid black;
+          border-radius: 40px;
+        }
+        #span2{
+          font-size: 2rem;
+          font-family:cursive;
+        }
+
+        .inputs{
+          width:2in;
+          font-weight: bold;
+          font-style: italic;
+          font-family:cursive;
+          font-size:15px;text-align: center;
+          border:1px solid black;
+          border-radius: 1.5rem;
+          background-color:transparent;
+        }
+
+        .inputs:hover{
+          border: 2px solid white;
+          background-color: rgb(231, 144, 81);
+          color: white;
+        }
+        button{
+          margin: 10px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.5px solid black;
+          border-radius: 50px;
+        }
+        #submit{
+          background-color: transparent;
+        }
+        #submit:hover{
+        background-color: rgb(69, 201, 69);
+        border: 2px solid white;
+
+        }
+        #new_acc{
+          background-color: transparent;
+        }
+        #new_acc:hover{
+        border: 2px solid white;
+        }

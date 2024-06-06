@@ -1,0 +1,109 @@
+body{
+  background-color: darkcyan;
+}
+#background-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  #total_area{
+    border: 1.5px solid black;
+    border-radius: 30px;
+    display: block;
+	  position: relative;
+    margin: 1rem auto;
+  	padding:2rem;
+	  width: 100%;
+	  max-width: 4in;
+	  min-height: 480px;
+    background-image: url(./jerryy.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+        .parent{
+          border: 1.5px solid black;
+          border-radius: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top:4px;
+          padding-bottom:10px;
+          align-items: center;
+          width:2.8in;
+          font-size: 2rem;
+          } 
+
+        #span1{
+          padding-left:50px;
+          padding-right:50px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.2px solid black;
+          border-radius: 40px;
+        }
+        #span2{
+          font-size: 2rem;
+          font-family:cursive;
+        }
+
+        .inputs{
+          width:2in;
+          font-weight: bold;
+          font-style: italic;
+          font-family:cursive;
+          font-size:15px;text-align: center;
+          border:1px solid black;
+          border-radius: 1.5rem;
+          background-color:transparent;
+        }
+
+        .inputs:hover{
+          border: 2px solid white;
+          background-color: rgb(231, 144, 81);
+          color: white;
+        }
+        button{
+          margin: 10px;
+          font-size: 1.5rem;
+          font-family:cursive;
+          border: 0.5px solid black;
+          border-radius: 50px;
+        }
+        #submit{
+          background-color: transparent;
+        }
+        #submit:hover{
+        background-color: rgb(69, 201, 69);
+        border: 2px solid white;
+
+        }
+        #new_acc{
+          background-color: transparent;
+        }
+        #new_acc:hover{
+          background-color: rgb(97, 97, 207);
+        border: 2px solid white;
+        }
+
+        .login__forgot {
+          display: block;
+          margin-top:1rem;
+          text-align: center;
+          color:black;
+          font-size:19px;
+          text-decoration: none;
+          position: relative;
+          z-index: 1;
+        }
+        
+        .login__forgot:hover {
+          font-size: 20px;
+          color:rgba(243, 3, 3, 0.884)
+        }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./logo icon.png">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Application Submitted</title>
+</head>
+<style>
+    body{
+        background-color: #ff9800;
+    }
+    h1{
+        margin-top:6cm;
+    }
+</style>
+<body>
+    <h1 style="text-align:center ;"> You are Succesfully Submitted your application</h1>
+<center>
+    <h4 id="heading" style="text-align:center;font-size:20px;">
+    <script>
+        // Function to generate OTP
+        function generateOTP() {
+                  
+            // Declare a string variable 
+            // which stores all string
+            var string = 'ABCDE0123456789'
+            let OTP = '';
+              
+            // Find the length of string
+            var len = string.length;
+            for (let i = 0; i < 9; i++ ) {
+                OTP += string[Math.floor(Math.random() * len)];
+            }
+            return OTP;
+        }    
+        document.write("YOUR APPLICATION NO: ")
+        document.write( generateOTP())
+    </script>
+
+    <br>
+    <P>Keep these for further reference</P>
+    <p>Our team will contact you ASAP</p>
+    <p>track your application status here- <a href="./status.html">RDES.status</a></p>
+    </h4>
+</center>
+</body>
+</html>
