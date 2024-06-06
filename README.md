@@ -6,9 +6,11 @@ We strongly believe that education is the only weapon to change the world, so we
 # Project Details
 Project Demo URL: https://educationrg.z13.web.core.windows.net
 
-Demo Video URL: 
+Demo Video URL: https://www.youtube.com/watch?v=sq4U2xUlkmo
 
-GitHub Repository URL: https://bhavithasri923.github.io/RDES_Final
+GitHub Repository URL: https://github.com/bhavithasri923/RDES_Final
+
+GitHub deployment URL: https://bhavithasri923.github.io/RDES_Final
 
 Industry: Education
 
